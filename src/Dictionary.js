@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Meaning from "./Meaning.js";
+import "./Dictionary.css";
 
 
 export default function Dictionary () {
 
 const [searchedWord, setSearchedWord] = useState(" ");
+const [meaning, setMeaning] = useState(null);
 
 function handleInput (event) {
     event.preventDefault();
@@ -21,16 +24,17 @@ function handleSubmit (event) {
 }
 
 function handleResponse (response) {
-console.log(response.data);
+setMeaning(response.data[0].meanings);
 }
 
 
  
 return ( 
-    <div>
+    <div className="search-engine">
         <form className="search-form" onSubmit={handleSubmit} > 
             <input type="search" placeholder='Type a word' onChange={handleInput}/>
             <input type="submit" value="Submit" />
+            <Meaning meaning={meaning} />
         </form>
     </div>
 )
