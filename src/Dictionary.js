@@ -32,8 +32,8 @@ setMeaning(response.data[0].meanings);
 return ( 
     <div className="search-engine">
         <form className="search-form" onSubmit={handleSubmit} > 
-            <input type="search" placeholder='Type a word' onChange={handleInput}/>
-            <input type="submit" value="Submit" />
+            <input type="search" placeholder='Type a word' className="sr-only" onChange={handleInput}/>
+            <input type="submit" value="Submit" className="btn btn-info" />
             <Meaning meaning={meaning} />
         </form>
     </div>

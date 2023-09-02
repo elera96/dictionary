@@ -14,7 +14,7 @@ return (
         <li>{definition.definition}</li>
         </ul>
         );
-})};
+})}
     </div>
 
 
