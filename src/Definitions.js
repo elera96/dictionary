@@ -9,9 +9,11 @@ return (
         {props.meaning.definitions.map(function (definition, index) {
 
         return(
+            <div>
         <ul key={index}>
         <li>{definition.definition}</li>
         </ul>
+        </div>
         );
 })}
     </div>
