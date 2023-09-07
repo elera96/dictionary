@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import Meaning from "./Meaning.js";
 import "./Dictionary.css";
+import Phonetics from "./Phonetics";
 
 
 export default function Dictionary () {
@@ -9,6 +10,7 @@ export default function Dictionary () {
 const [searchedWord, setSearchedWord] = useState(" ");
 const [meaning, setMeaning] = useState(null);
 const [keyword, setKeyword] = useState("");
+const [phonetics, setPhonetics] = useState(null);
 
 function handleInput (event) {
     event.preventDefault();
@@ -27,8 +29,10 @@ function handleSubmit (event) {
 function handleResponse (response) {
 setMeaning(response.data[0].meanings);
 setKeyword(response.data[0].word);
+setPhonetics(response.data[0].phonetics);
 
 }
+
 
 
  
@@ -38,6 +42,7 @@ return (
             <input type="search" placeholder='Type a word' className="sr-only" onChange={handleInput}/>
             <input type="submit" value="Submit" className="btn btn-info" />
             <h1>{keyword}</h1>
+            <Phonetics phonetics={phonetics} />
             <Meaning meaning={meaning} />
         </form>
     </div>

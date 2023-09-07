@@ -10,6 +10,7 @@ export default function Meaning (props) {
 return (
 
     <div className="meaning">
+
          {props.meaning.map(function (meaning, index) {
          
              return(
