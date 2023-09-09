@@ -15,16 +15,15 @@ if (finalSynonym.length > 0) {
     return (
         
         <div className="Synonyms">
-            <h2 className="headline-section"> Synonym</h2>
+            <h2 className="headline-section"> Synonyms 🖇️</h2>
         
             {finalSynonym.map(function (synonym, index) {
                 return (
                 
-                    <div key={index} >
-                        <ul className="definition">
-                        <li className="single-definition">{synonym}</li>
-                        </ul>
-                    </div>
+                    
+                        <li className="single-synonym" key={index} >{synonym}</li>
+                    
+                    
                 );
             })}
         
