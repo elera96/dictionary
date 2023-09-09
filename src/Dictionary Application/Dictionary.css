@@ -1,0 +1,61 @@
+.search-engine{
+
+    margin: 60px;
+    
+ 
+}
+
+.search-bar {
+
+padding: 10px;
+margin: 20px;
+width: 60%;
+background-color: #eee0da;
+color: #382e26;
+border-radius: 8px;
+
+border: none;
+
+}
+
+.submit:hover {
+
+border: 1px solid;
+padding: 10px 20px;
+background-color: #eee0da;
+border-color: #eee0da;
+color: #a18167;
+
+}
+
+.submit {
+
+border: 1px solid;
+padding: 10px 20px;
+background-color: #a18167;
+color: #e9d3c0;
+transition: ease-in-out 0.5;
+
+}
+
+
+
+.basic-information{
+
+background-color: #dbc9c1b2;
+padding: 30px;
+margin-top: 40px;
+border-radius: 8px;
+box-shadow: 17px 17px 49px rgba(0, 0, 0, 0.1);
+
+}
+
+.keyword{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-left: 8px;
+
+   
+}

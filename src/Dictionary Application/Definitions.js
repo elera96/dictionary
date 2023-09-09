@@ -1,17 +1,18 @@
 import React from "react";
+import "./Definitions.css";
 
 export default function Definitions (props) {
 
 
 return (
-    <div className="definition">
+    <div >
 
         {props.meaning.definitions.map(function (definition, index) {
 
         return(
             <div>
-        <ul key={index}>
-        <li>{definition.definition}</li>
+        <ul key={index} className="definition">
+        <li className="single-definition">{definition.definition}</li>
         </ul>
         </div>
         );

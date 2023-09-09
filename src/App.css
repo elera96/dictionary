@@ -1,18 +1,39 @@
- 
+.App {
+  background-color: #fefffa;
+}
+
+
+.headline {
+
+text-align: center;
+margin: 0;
+padding: 0;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+ }
 
 
 
 .logo{
   max-width: 200px;
   margin: 0 auto;
+  padding-top: 40px;
   display: block;
 }
 
 
 
 footer {
-  background-color: aliceblue;
+  background-color: #e3dad5;
   text-align: center;
   padding: 60px;
   margin-top: 40px;
+  color: #382e26;
+}
+
+.github-link{
+
+  color: #a18167;
+  text-decoration: none;
+
 }

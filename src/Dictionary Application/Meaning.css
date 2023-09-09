@@ -1,0 +1,32 @@
+.information {
+  
+
+        background-color: #dbc9c1b2;
+        padding: 30px;
+        margin-top: 40px;
+        border-radius: 8px;
+        box-shadow: 17px 17px 49px rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+.partOfSpeech{
+
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px; 
+    margin-bottom: 20px;
+   
+}
+
+
+.headline-section{
+
+font-size: 20px;
+margin-bottom: 20px;
+margin-top: 40px;
+color: #806551;
+
+
+}

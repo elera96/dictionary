@@ -1,4 +1,5 @@
 import React from "react";
+import "./Synonyms.css";
 
 
 
@@ -14,13 +15,15 @@ if (finalSynonym.length > 0) {
     return (
         
         <div className="Synonyms">
-            <strong> Synonym</strong>
+            <h2 className="headline-section"> Synonym</h2>
         
             {finalSynonym.map(function (synonym, index) {
                 return (
                 
-                    <div key={index} background-color="red">
-                        <ul><li>{synonym}</li></ul>
+                    <div key={index} >
+                        <ul className="definition">
+                        <li className="single-definition">{synonym}</li>
+                        </ul>
                     </div>
                 );
             })}

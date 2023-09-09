@@ -1,0 +1,17 @@
+.definition {
+
+font-size: 15px;
+margin: 15px 0px;
+padding: 0;
+list-style-type: none;
+
+}
+
+.single-definition{
+
+padding-bottom: 15px;
+border-bottom: 1px solid;
+border-color: #9c8a7a;
+color: #382e26;
+
+}
