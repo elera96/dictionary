@@ -16,8 +16,7 @@ if (props.phonetics) {
             <div key={index} className="phonetics">
                  <a href={phonetics.audio} target="_blank"  rel="noreferrer" className="audio">🎧 </a>
                  {phonetics.text}  
-           
-
+        
             </div>   
             )
 

@@ -25,6 +25,7 @@ padding: 10px 20px;
 background-color: #eee0da;
 border-color: #eee0da;
 color: #a18167;
+border-radius: 8px;
 
 }
 
@@ -35,6 +36,7 @@ padding: 10px 20px;
 background-color: #a18167;
 color: #e9d3c0;
 transition: ease-in-out 0.5;
+border-radius: 8px;
 
 }
 

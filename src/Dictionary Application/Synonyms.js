@@ -9,7 +9,6 @@ export default function Synonyms(props) {
 let finalSynonym = props.synonyms[0].synonyms;
 
 if (finalSynonym.length > 0) {
-    console.log(finalSynonym);
    
 
     return (
