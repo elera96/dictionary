@@ -1,7 +1,6 @@
 import logo from './book.jpg';
 import './App.css';
 import Dictionary from './Dictionary Application/Dictionary.js';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
